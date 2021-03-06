@@ -19,7 +19,7 @@
 #include "TitreGagne.h"
 #include "LigueHockey.h"
 #include "Date.h"
-
+#include "Periode_Resultat.h"
 
 
 void CreerValeursDefaut(vector<Club*> &clubs);
@@ -28,6 +28,12 @@ int main()
 {
 	setlocale(LC_CTYPE, "fr-FR");
 
+	Periode test(2, 4);
+	Resultat test2(5, 7);
+
+	cout << test.nbButsLocal << endl << test2.nbButsLocal;
+
+	/*
 	vector<Club*> clubs;
 
 	CreerValeursDefaut(clubs);
@@ -37,7 +43,7 @@ int main()
 	Ecran ecranPrincipal (ligue);
 	ecranPrincipal.MenuPrincipal();
 
-	delete ligue;
+	delete ligue;*/
 
 	return EXIT_SUCCESS;
 

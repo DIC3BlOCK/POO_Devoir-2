@@ -14,7 +14,9 @@ class Reglement;
 
 class ContratEngagement
 {
-private:
+
+public:
+
 
 	Joueur* joueurContractant;
 	Club* clubContractant, clubLibere;
@@ -22,7 +24,7 @@ private:
 	Date* dateEntree, dateContrat;
 	Reglement* reglementContrat;
 
-public:
+	//TODO : Faire ou finir les méthodes. jpense que je stick avec les données demême pour l'instant.
 
 
 };

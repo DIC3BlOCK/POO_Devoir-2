@@ -24,6 +24,7 @@ class Club
 	Entraineur* entraineur; // Entraîneur du club
 	Arena* arena; //arena du club
 	vector<Personne*> staffTechnique; //Staff technique, de type Personne.
+
 	vector<ContratEngagement*> listeContrats;
 
 public:
